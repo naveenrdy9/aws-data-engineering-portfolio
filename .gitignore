@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+!example.tfvars
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# AWS
+.aws/
+*.pem
+
+# Local
+.DS_Store
